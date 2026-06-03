@@ -12,4 +12,11 @@ def classificar(valor_imc):
         print("Saudável ✅")
     else:
         print("Acima do peso 🚫")
+#Módulo 3: Especialista em Conteúdo
+#Responsável: Brayan De Santana Da Silva
+def gerar_aviso(status):
+    if imc <25:
+        print("Dica: Continue mantendo hábitos saudáveis, como uma dieta equilibrada e exercícios regulares!")
+    else:
+        print("Dica: Inclua caminhadas na sua rotina e foque em alimentos ricos em fibras. Pequenas mudanças fazem grande diferença!")
         
