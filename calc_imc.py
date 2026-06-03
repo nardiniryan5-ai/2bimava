@@ -19,4 +19,14 @@ def gerar_aviso(status):
         print("Dica: Continue mantendo hábitos saudáveis, como uma dieta equilibrada e exercícios regulares!")
     else:
         print("Dica: Inclua caminhadas na sua rotina e foque em alimentos ricos em fibras. Pequenas mudanças fazem grande diferença!")
+
+#Módulo 4:Engenheiro de Integração
+#Responsável: Ryan Nardini Pereira
+p = float(input("Qual o Seu Peso atual?(Kg) "))
+a = float(input("Qual sua altura atual? "))
+ 
+imc = calcular_imc(p, a)
+print(f"Seu IMC é: {imc:.2f}")
+classificar(imc)
+gerar_aviso(imc)
         
